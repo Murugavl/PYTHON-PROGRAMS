@@ -1,0 +1,12 @@
+name=input("Enter your name  : ")
+reg_no=input("Enter your Reg_no: ")
+mark1=int(input("Enter your mark1 : "))
+mark2=int(input("Enter your mark2 : "))
+mark3=int(input("Enter your mark3 : "))
+mark4=int(input("Enter your mark4 : "))
+total=mark1+mark2+mark3+mark4
+average=total/4
+print("\nNAME    : ",name)
+print("Reg_no  : ",reg_no)
+print("TOTAL   : ",total)
+print("AVERAGE : ",average)
