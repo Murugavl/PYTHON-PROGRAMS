@@ -1,0 +1,15 @@
+name=input("Enter your name  : ")
+reg_no=input("Enter your Reg_no: ")
+sub1=int(input("Enter your 1st subject mark : "))
+sub2=int(input("Enter your 2nd subject mark : "))
+sub3=int(input("Enter your 3rd subject mark : "))
+sub4=int(input("Enter your 4th subject mark : "))
+sub5=int(input("Enter your 5th subject mark : "))
+total=sub1+sub2+sub3+sub4+sub5
+average=total/5
+print("\n\t\t STUDENT DETAILS")
+print("\t\t ----------------")
+print("\n\t\tNAME    : ",name)
+print("\t\tReg_no  : ",reg_no)
+print("\t\tTOTAL   : ",total)
+print("\t\tAVERAGE : ",average)
